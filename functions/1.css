@@ -1,0 +1,32 @@
+/* #one {
+    height: 100px;
+    width: 100px;
+    background: orange;
+} */
+
+
+#myslide {
+    width: 1100px;
+    height: 738px;
+    border: 3px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+#one, #two {
+    width: 1100px;
+    height: 838px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: all ease 1s;
+}
+
+#one {
+    background: yellow;
+}
+
+#two {
+    background: pink;
+}
