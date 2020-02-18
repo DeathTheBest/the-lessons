@@ -1,0 +1,38 @@
+.tabs {
+    width: 600px;
+    /* height: 350px; */
+    /* background: pink; */
+    margin: 50px auto;
+    font-family: sans-serif;
+}
+
+.tab-h {
+    display: inline-block;
+    padding: 5px 10px;   
+    line-height: 30px;
+    border: 3px solid black;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.tab-b {
+    display: none;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.tabs-body {
+    position: relative;
+    z-index: 1;
+    top: 4px;
+}
+
+.active {
+    border-bottom:  1px solid white;
+}
+
+.tabs-header {
+    position: relative;
+    z-index: 2;
+}
